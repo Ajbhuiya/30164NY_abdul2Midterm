@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/data-structure-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/UseMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/UseQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/FindLowestDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/FindLowestDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/FindMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/FindMissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/PrimeNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,11 +22,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="816" />
   </component>
   <component name="ProjectId" id="1WRtChcsIG38n3YVG0GE750ug94" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -40,7 +46,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConnectToMongoDB">
+  <component name="RunManager" selected="Application.UseQueue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -58,13 +64,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CsvReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codelab.status.CsvReader" />
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.Factorial" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codelab.status.*" />
+          <option name="PATTERN" value="math.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.Fibonacci" />
+      <module name="CodingExamJuly2019" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindLowestDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.FindLowestDifference" />
+      <module name="CodingExamJuly2019" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="math.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.UseQueue" />
+      <module name="CodingExamJuly2019" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +144,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ConnectToMongoDB" />
-      <item itemvalue="Application.CsvReader" />
+      <item itemvalue="Application.Factorial" />
+      <item itemvalue="Application.Fibonacci" />
+      <item itemvalue="Application.FindLowestDifference" />
+      <item itemvalue="Application.UseQueue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseQueue" />
+        <item itemvalue="Application.FindLowestDifference" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.ConnectToMongoDB" />
-        <item itemvalue="Application.CsvReader" />
       </list>
     </recent_temporary>
   </component>
@@ -129,6 +183,28 @@
       <updated>1567900185274</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="367" y="251" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579124545400">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="367" y="251" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1579124545400" />
+    <state width="979" height="168" key="GridCell.Tab.0.bottom" timestamp="1579125367410">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="979" height="168" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579125367410" />
+    <state width="979" height="168" key="GridCell.Tab.0.center" timestamp="1579125367410">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="979" height="168" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579125367410" />
+    <state width="979" height="168" key="GridCell.Tab.0.left" timestamp="1579125367410">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="979" height="168" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579125367410" />
+    <state width="979" height="168" key="GridCell.Tab.0.right" timestamp="1579125367410">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="979" height="168" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579125367410" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

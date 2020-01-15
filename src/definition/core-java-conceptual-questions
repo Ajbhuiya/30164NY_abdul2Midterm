@@ -1,43 +1,58 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
-
-
-
+A. programming language is a computer language programmers use to develop software programs, scripts, or other sets of instructions for computers to execute.
+Although many languages share similarities, each has its own syntax. Type of programming languages are Java, Phyton, C etc.
 
 What jdk contains or composed of and define each components?
-A.
-
-
-
-
+A. the Java development kit is composed of:
+     - Java Runtime Environment (JRE): It combines the Java Virtual Machine (JVM), platform core classes and supporting libraries.
+     - An interpreter/loader (java) : program which translates statements of a program into machine code.
+     - A compiler (javac)
+     - An archiver (jar)
+     - A documentation generator (javadoc)
+     - Other tools needed in Java development
 
 What is IDE?
-A.
 
-
+A.Integrated Development Environment
 
 What are the IDEs available in the market to support java?
-A.
+A. Eclipse, IntelliJ, IDEA, Eclipse, and NetBeans.
 
 
 
 Explain the entire java life cycle.
-what is class?
-What is object?
-What is the entry point of an application?
+Editing the program; Compiling the source code; Executing the byte code.
+
+what is class? Class is a blue of an object. It is basically the design to create objects.
+
+What is object? Object is an instance of class.
+
+What is the entry point of an application? main method.
+
 Why main is static?
+
 Which class is the superclass of all classes?
+
 What is difference between path and classpath variables?
+
 What is the difference between an Interface and Abstract class?
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+
 what is Access Specifier?
+
 What is OOP ? Define each feature of java OOP.
+
 What is Java Package and which package is imported by default?
+
 What is API? Name list of API that you have used so far.
+
 Does java support multiple inheritance, explain why or why not?
+
 What is method overloading and when it happens?
+
 Explain exceptions in java and how to handle it.
 What is static keyword in java? How it has been used in variables and methods ?
 What is final and how it has been used variables and methods?

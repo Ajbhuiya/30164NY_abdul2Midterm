@@ -1,11 +1,18 @@
 package datastructure;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Stack;
+
 public class DataReader {
 
 	public static void main(String[] args) {
 		/*
 		 * User API to read the below textFile and print to console.
-		 * Use BufferedReader class. 
+		 * Use BufferedReader class.
 		 * Use try....catch block to handle Exception.
 		 *
 		 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
@@ -19,6 +26,41 @@ public class DataReader {
 		 */
 
 		String textFile = System.getProperty("user.dir") + "/src/data/self-driving-car.txt";
+		FileReader fr= null;
+		BufferedReader br =null;
+		String line;
+		String store = "";
+
+		try{
+			fr= new FileReader(textFile);
+		} catch (Exception ex) {
+			System.out.println("system did not find attached file");
+		}
+		try{
+			br= new BufferedReader(fr);
+			while ((line = br.readLine()) != null){
+				System.out.println(line);
+				store = line;
+			}
+		} catch (Exception ex) {
+			System.out.println("system did not find attached file");
+		}
+		String[] storyArray =  store.split("");
+		Stack<String> myStack = new Stack<>();
+		List<String>myList = new LinkedList<>();
+		for(String element: storyArray){
+			myStack.add(element);
+			myStack.push(element);
+		}
+		System.out.println("the Linked list LIFO");
+		Iterator<String> it = myList.iterator();
+		while (it.hasNext()){
+			System.out.println(it.next() + "");
+		}
+		System.out.println("the stack fifo");
+		while (!myStack.isEmpty()){
+			System.out.println(myStack.pop() + "");
+		}
 
 
 
