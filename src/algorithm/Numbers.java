@@ -1,16 +1,20 @@
 package algorithm;
 
+/*
 import databases.ConnectToSqlDB;
 
 import java.util.List;
 import java.util.Random;
 
+*/
 /*
  *Created by mrahman on 04/02/2018.
- */
+ *//*
+
 public class Numbers {
 
-	/*
+	*/
+/*
 	 * Show all the different kind of sorting algorithm by applying into (num array).
 	 * Display the execution time for each sorting.Example in below.
 	 *
@@ -18,7 +22,8 @@ public class Numbers {
 	 *
 	 * At the end. After running all the sorting algo, come to a conclusion which one is suitable on given data set.
 	 *
-	 */
+	 *//*
+
 
 	public static void main(String[] args) throws Exception {
 		
@@ -42,15 +47,52 @@ public class Numbers {
 
 		//By following above, Continue for rest of the Sorting Algorithm....
 
+		//Merge Sort
+		randomize (num, n);
+
+		algo.mergeSort(num, 0, n-1);
+		long mergeSortExecutionTime = algo.executionTime;
+		System.out.println("Total execution time " + num.length + " numbers in Merge Sort take: " + mergeSortExecutionTime + " milli sec");
+
+
+		randomize (num, n);
+		//bubble sort
+		algo.bubbleSort(num);
+		long bubbleSortExecutionTime = algo.executionTime;
+		System.out.println("Total execution time " + num.length + " numbers in Bubble Sort take: " + bubbleSortExecutionTime + " milli sec");
 
 
 
+		//Quick Sort
+		randomize (num, n);
+
+		algo.quickSort(num, 0, n-1);
+		long quickSortExecutionTime = algo.executionTime;
+		System.out.println("Total execution time " + num.length + " numbers in Quick Sort take: " + quickSortExecutionTime + " milli sec");
 
 
+		//Heap Sort
+		randomize (num, n);
+
+		algo.heapSort(num);
+		long heapSortExecutionTime = algo.executionTime;
+		System.out.println("Total execution time " + num.length + " numbers in Heap Sort take: " + heapSortExecutionTime + " milli sec");
+
+		//Bucket Sort
+		randomize (num, n);
+
+		algo.bucketSort(num,1000000);
+		System.out.println("Total execution time "+ num.length + " numbers in BucketSort take: " + algo.executionTime + " milli sec");
 
 
+		//Shell Sort
+		randomize (num, n);
 
-		//Come to conclusion about which Sorting Algo is better in given data set.
+		algo.shellSort(num);
+		long shellSortExecutionTime = algo.executionTime;
+		System.out.println("Total execution time " + num.length + " numbers in Shell Sort take: " + shellSortExecutionTime + " milli sec");
+
+		//Come to conclusion about which Sorting Algo is better in given data set.?? I think bubble sort is the best for sorting data
 
 	}
 
@@ -60,7 +102,6 @@ public class Numbers {
 			num[i] = rand.nextInt(1000000);
 		}
 	}
-
 	public static void randomize( int arr[], int n)
 	{
 		Random r = new Random();
@@ -79,3 +120,4 @@ public class Numbers {
 		}
 	}
 }
+*/

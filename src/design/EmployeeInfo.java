@@ -2,7 +2,7 @@ package design;
 
 import java.util.Scanner;
 
-public class EmployeeInfo {
+public class EmployeeInfo extends AbstractClass {
 	
  /*This class can be implemented from Employee interface then add additional methods in EmployeeInfo class.
  * Also, Employee interface can be implemented into an abstract class.So create an Abstract class
@@ -32,11 +32,20 @@ public class EmployeeInfo {
 	 * you must have multiple constructor.
 	 * Must implement below constructor.
 	 */
+	private String name;
+	private int employeeId;
+	private String deptName;
+
+	public EmployeeInfo(){}
+
+
 	public EmployeeInfo(int employeeId){
 		
 	}
-    public EmployeeInfo(String name, int employeeId){
-		
+    public EmployeeInfo(String name, int employeeId, String deptName){
+		this.name = name;
+		this.employeeId = employeeId;
+		this.deptName = deptName;
 	}
 	
 	/*
@@ -70,6 +79,7 @@ public class EmployeeInfo {
 
         //implement numbers of year from above two dates
 		//Calculate pension
+
 
 
 
