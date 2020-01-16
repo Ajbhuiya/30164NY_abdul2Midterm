@@ -14,6 +14,13 @@ public class FortuneEmployee {
 	 *
 	 **/
 	public static void main(String[] args) {
+
+		EmployeeInfo ei= new EmployeeInfo();
+		ei.employeeHours();
+		ei.assignDepartment();
+		ei.calculateSalary();
+
+
 		
 
 

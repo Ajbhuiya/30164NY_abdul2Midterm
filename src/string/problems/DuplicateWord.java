@@ -16,11 +16,11 @@ public class DuplicateWord {
 
         String st = "Java is a programming Language. Java is also an Island of Indonesia. Java is widely used language";
 
-        String[] seperateWords = st.split(" ");
+        String[] sepWords = st.split(" ");
 
         Map<String,Integer> Map = new HashMap<>();
 
-        for ( String word : seperateWords ) {
+        for ( String word : sepWords ) {
             Integer count = Map.get(word);
             if (count == null) {
                 count = 0;

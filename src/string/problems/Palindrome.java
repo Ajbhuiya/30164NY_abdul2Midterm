@@ -27,6 +27,8 @@ public class Palindrome {
         }
         if (i == middle + 1) {
             System.out.println("Palindrome");
+
+
         }
         else {
             System.out.println("Not a palindrome");

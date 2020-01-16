@@ -21,7 +21,7 @@ public static void main(String[] args) {
 
         Set<Integer> keys = map.keySet();
         for (Integer key:keys){
-                System.out.println(key + " "+"Represent: "+map.get(key));
+                System.out.println(key + " "+"Representing: "+map.get(key));
         }
 
 

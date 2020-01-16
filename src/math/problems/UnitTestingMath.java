@@ -1,3 +1,4 @@
+/*
 package math.problems;
 
 import org.testng.Assert;
@@ -14,4 +15,4 @@ public class UnitTestingMath {
 
 
     }
-}
+}*/

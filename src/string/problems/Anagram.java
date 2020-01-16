@@ -12,24 +12,29 @@ public class Anagram {
         //same character but in different order.For example,"CAT" and "ACT", "ARMY" and "MARY".
         String a = "CAT";
         String b = "ACT";
-        String x = "ARMY";
-        String y = "MARY";
+        String c = "ARMY";
+        String d = "MARY";
 
-        System.out.println(isAnagram(a,b));
-        System.out.println(isAnagram(x,y));
+        System.out.println(isitAnagram(a,b));
+
+        System.out.println(isitAnagram(c,d));
     }
-    public static boolean isAnagram(String str1, String str2){
+    public static boolean isitAnagram(String stringa, String stringb){
 
-        if (str1.length()!= str2.length()){
+        if (stringa.length()!= stringb.length()){
             return false;
         }
-        str1 = str1.toUpperCase();
-        str2 = str2.toUpperCase();
-        char [] str1c = str1.toCharArray();
-        Arrays.sort(str1c);
-        char [] str2c = str2.toCharArray();
-        Arrays.sort(str2c);
-        return Arrays.equals(str1c, str2c);
+        stringa = stringa.toUpperCase();
+        stringb =  stringb.toUpperCase();
+
+        char [] stringc = stringa.toCharArray();
+
+        Arrays.sort(stringc);
+        char [] stringd = stringb.toCharArray();
+
+        Arrays.sort(stringd);
+
+        return Arrays.equals(stringc, stringd);
     }
 
 }

@@ -1,3 +1,4 @@
+/*
 package json.parser;
 
 import com.google.gson.JsonArray;
@@ -17,7 +18,8 @@ import java.util.ArrayList;
 import java.util.List;
 import databases.ConnectToSqlDB;
 class CNNApi {
-    /*
+    */
+/*
       You can get API_KEY from this below link. Once you have the API_KEY, you can fetch the top-headlines news.
       https://newsapi.org/s/cnn-api
       Fetch This following CNN API, It will return some news in Json data. Parse this data and construct
@@ -44,7 +46,8 @@ class CNNApi {
 	   You can follow How we implemented in Employee and JsonReaderUtil task.
 	   Show output of all the headline news in to console.
 	   Store into choice of your database and retrieve.
-     */
+     *//*
+
 
     public static void main(String[] args) throws Exception {
         String sURL = "https://newsapi.org/v2/top-headlines?sources=cnn&apiKey=0d9e35dfa3c140aab8bf9cdd70df957f";
@@ -121,4 +124,4 @@ class CNNApi {
         }
     }
 
-}
+}*/
