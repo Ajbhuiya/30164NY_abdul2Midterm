@@ -23,9 +23,13 @@ public class FortuneEmployee {
 		//EmployeeInfo emp = new EmployeeInfo();
 
 		EmployeeInfo e1 = new EmployeeInfo("John Smith", 101, "QA", 50000.00, 'M');
+
 		EmployeeInfo e2 = new EmployeeInfo("John Doe", 102, "QA", 60000.00, 'M');
+
 		EmployeeInfo e3 = new EmployeeInfo("Mike Jordan", 103, "Dev", 76000.00, 'M');
+
 		EmployeeInfo e4 = new EmployeeInfo("Kobe Bryant ", 104, "Dev", 80000.00, 'F');
+
 		EmployeeInfo e5 = new EmployeeInfo("Don King", 105, "Dev", 100000.00, 'F');
 
 		System.out.println(e1.getSalary());
@@ -42,16 +46,22 @@ public class FortuneEmployee {
 		System.out.println(EmployeeInfo.getCompanyName());
 		System.out.println(EmployeeInfo.calculateEmployeePension());
 
+
+
 		Map<Integer, List<Object>> employeeInfo = new HashMap<Integer, List<Object>>();
 		List<Object> emp1 = new ArrayList<Object>();
 		emp1.add(e1.employeeName());
 		emp1.add(e1.employeeId());
 		emp1.add(e1.calculateSalary());
 
+
+
 		List<Object> emp2 = new ArrayList<Object>();
 		emp2.add(e2.employeeName());
 		emp2.add(e2.employeeId());
 		emp2.add(e2.calculateSalary());
+
+
 
 		employeeInfo.put(1, emp1);
 		employeeInfo.put(2, emp2);

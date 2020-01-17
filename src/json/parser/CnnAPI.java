@@ -47,6 +47,8 @@ public class CnnAPI {
      */
 
     public static void main(String[] args) throws MalformedURLException, IOException {
+
+
         String sURL = "https://newsapi.org/v2/top-headlines?sources=cnn&apiKey=01502dde174d44e1aa6c1dfa616e967e";
         HelperClass methods = null;
         List<HelperClass> newsList = new ArrayList<>();

@@ -27,8 +27,6 @@ public class Numbers {
 		printValue(numbers);
 		int n = num.length;
 		randomize(num, n);
-
-
 		//Insertion Sort
 		algo.insertionSort(num);
 		long insertionSortExecutionTime = algo.executionTime;
@@ -44,7 +42,9 @@ public class Numbers {
 
 
 			//bubble sort
-		algo.bubbleSort(num);
+
+
+			algo.bubbleSort(num);
 		long bubbleSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Bubble Sort take: " + bubbleSortExecutionTime + " milli sec");
 		connectToSqlDB.insertDataFromArrayToSqlTable(num, "bubble_sort", "SortingNumbers");
@@ -76,9 +76,6 @@ public class Numbers {
 		printValue(numbers);
 		n = num.length;
 		randomize(num, n);
-
-
-
 		//heap sort
 		algo.heapSort(num, n);
 		int maxValueForBucketSort = num[num.length - 1];
@@ -89,7 +86,6 @@ public class Numbers {
 		printValue(numbers);
 		n = num.length;
 		randomize(num, n);
-
 		//Bucket sort
 		algo.bucketSort(num, maxValueForBucketSort);
 		long bucketSortExecutionTime = algo.executionTime;
@@ -134,10 +130,10 @@ public class Numbers {
 			int temp = arr[i];
 			arr[i] = arr[j];
 			arr[j] = temp;
-		}
+		    }
 	}
 
-	public static void printValue(List<String> array) {
+	  public static void printValue(List<String> array) {
 		for (String st : array) {
 			System.out.println(st);
 		}
