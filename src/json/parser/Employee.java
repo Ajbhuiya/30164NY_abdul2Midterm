@@ -3,6 +3,7 @@ package json.parser;
 public class Employee {
 
     private String empEmail;
+
     private String empName;
     private String salary;
     private String department;
@@ -26,6 +27,8 @@ public class Employee {
     public String getEmpName() {
         return empName;
     }
+
+
 
     public void setEmpName(String empName) {
         this.empName = empName;

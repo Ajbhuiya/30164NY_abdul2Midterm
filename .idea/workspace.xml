@@ -2,25 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/json/parser/HelperClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2019/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2019/definition/core-java-conceptual-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2019/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2019/definition/data-structure-questions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithm/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Numbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithm/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithm/UnitTestSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/UnitTestSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/databases/ConnectToMongoDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/databases/ConnectToMongoDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/databases/ConnectToSqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/databases/ConnectToSqlDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/datastructure/CollectionView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/CollectionView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/DataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/data-structure-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/UseMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/design/AbstractClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/AbstractClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/design/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/design/EmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/EmployeeInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/design/FortuneEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/FortuneEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/Months.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/Months.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/json/parser/CnnAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/parser/CnnAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/problems/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/parser/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/parser/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/FindLowestDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/FindLowestDifference.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/math/problems/UnitTestingMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/UnitTestingMath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Anagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/DuplicateWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/DuplicateWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/XmlReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/XmlReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,15 +60,15 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/codelab/status" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.DataReader">
+  <component name="RunManager" selected="Application.Fibonacci">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -79,13 +86,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.problems.Factorial" />
+    <configuration name="DuplicateWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.problems.DuplicateWord" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="math.problems.*" />
+          <option name="PATTERN" value="string.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,13 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FortuneEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design.FortuneEmployee" />
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.problems.Permutation" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design.*" />
+          <option name="PATTERN" value="string.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,13 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MakePyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.problems.MakePyramid" />
+    <configuration name="UseArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MidtermJuly2019.src.datastructure.UseArrayList" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="math.problems.*" />
+          <option name="PATTERN" value="MidtermJuly2019.src.datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,19 +165,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.DuplicateWord" />
+      <item itemvalue="Application.Permutation" />
       <item itemvalue="Application.DataReader" />
-      <item itemvalue="Application.FortuneEmployee" />
+      <item itemvalue="Application.UseArrayList" />
       <item itemvalue="Application.Fibonacci" />
-      <item itemvalue="Application.Factorial" />
-      <item itemvalue="Application.MakePyramid" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DataReader" />
-        <item itemvalue="Application.MakePyramid" />
-        <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.FortuneEmployee" />
+        <item itemvalue="Application.UseArrayList" />
+        <item itemvalue="Application.DataReader" />
+        <item itemvalue="Application.Permutation" />
+        <item itemvalue="Application.DuplicateWord" />
       </list>
     </recent_temporary>
   </component>
@@ -200,30 +207,50 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="285" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1579199898727">
+    <state x="285" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1579227827880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="285" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1579199898727" />
+    <state x="285" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1579227827880" />
     <state x="367" y="251" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579124545400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="367" y="251" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1579124545400" />
-    <state width="737" height="155" key="GridCell.Tab.0.bottom" timestamp="1579204579362">
+    <state x="705" y="81" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1579226578749">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="737" height="155" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579204579362" />
-    <state width="737" height="155" key="GridCell.Tab.0.center" timestamp="1579204579362">
+    <state x="705" y="81" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.728@0.0.1366.728" timestamp="1579226578749" />
+    <state width="1322" height="2" key="GridCell.Tab.0.bottom" timestamp="1579230865714">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="737" height="155" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579204579362" />
-    <state width="737" height="155" key="GridCell.Tab.0.left" timestamp="1579204579362">
+    <state width="1322" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579230865714" />
+    <state width="1322" height="2" key="GridCell.Tab.0.center" timestamp="1579230865714">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="737" height="155" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579204579362" />
-    <state width="737" height="155" key="GridCell.Tab.0.right" timestamp="1579204579362">
+    <state width="1322" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579230865714" />
+    <state width="1322" height="2" key="GridCell.Tab.0.left" timestamp="1579230865714">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="737" height="155" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579204579362" />
+    <state width="1322" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579230865714" />
+    <state width="1322" height="2" key="GridCell.Tab.0.right" timestamp="1579230865714">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579230865714" />
+    <state width="1322" height="97" key="GridCell.Tab.1.bottom" timestamp="1579230865698">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="97" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579230865698" />
+    <state width="1322" height="97" key="GridCell.Tab.1.center" timestamp="1579230865698">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="97" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1579230865698" />
+    <state width="1322" height="97" key="GridCell.Tab.1.left" timestamp="1579230865698">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="97" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1579230865698" />
+    <state width="1322" height="97" key="GridCell.Tab.1.right" timestamp="1579230865698">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="97" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1579230865698" />
     <state x="100" y="100" width="929" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1579199952428">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -232,10 +259,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="758" y="62" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1579204545936" />
-    <state x="277" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1579203415962">
+    <state x="277" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1579229898660">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="277" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1579203415962" />
+    <state x="277" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1579229898660" />
     <state x="219" y="157" key="run.anything.popup" timestamp="1579197985366">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -251,11 +278,6 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/codelab/status/CsvReader.java</url>
           <line>41</line>
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/Sort.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -24,8 +24,8 @@ public interface Employee {
 	public void benefitLayout();
 
 	public void employeeRank();
+	public void severancePackage();
 
-	public void employeeGender();
 
 
 

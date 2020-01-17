@@ -16,12 +16,12 @@ public class UseMap {
 		 */
 
 		HashMap<String, String> hm = new HashMap<String, String>();
-		hm.put("Hi", "How are you?");
-		hm.put("Hey", "Whats up");
-		hm.put("Hello", "Good Bye");
-		hm.put("Hola", "Como Estas");
+		hm.put("Tim", "How are you?");
+		hm.put("Jim", "Whats up");
+		hm.put("Mike", "Good Bye");
+		hm.put("Rick", "Como Estas");
 
-		System.out.println(hm.get("Hi"));
+		System.out.println(hm.get("Rick"));
 		hm.remove("Hola");
 		System.out.println(hm.containsValue("Whats up"));
 		System.out.println(hm.size());

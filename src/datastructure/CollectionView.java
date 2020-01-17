@@ -20,8 +20,8 @@ public static void main(String[] args) {
         map.put(6, "Seattle");
 
         Set<Integer> keys = map.keySet();
-        for (Integer key:keys){
-                System.out.println(key + " "+"Representing: "+map.get(key));
+        for (Integer newKey:keys){
+                System.out.println(newKey + " "+"Representing: "+map.get(newKey));
         }
 
 

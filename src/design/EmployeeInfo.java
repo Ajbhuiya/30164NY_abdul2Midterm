@@ -2,7 +2,7 @@ package design;
 
 import java.util.Scanner;
 
-public class EmployeeInfo extends AbstractClass implements Employee {
+public class EmployeeInfo extends AbstractClass {
 
 
 	/*This class can be implemented from Employee interface then add additional methods in EmployeeInfo class.
@@ -118,16 +118,7 @@ public class EmployeeInfo extends AbstractClass implements Employee {
 	}
 
 	@Override
-	public void employeeGender() {
-
-	}
-
-	@Override
-	public void employeeHours() {
-
-	}
-
-	public void severance() {
+	public void severancePackage() {
 		System.out.println("This company does not provide great severance package");
 	}
 

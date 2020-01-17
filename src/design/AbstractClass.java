@@ -1,22 +1,18 @@
 package design;
 
-public abstract class AbstractClass implements Employee {
+public abstract class AbstractClass implements Employee{
 
-    final String empName = "John Doe";
+    final String empName = "John Smith";
     static String resignationDate = "01/01/2010";
     int rating;
 
     //Method overloading
-    public abstract void performance();
-
-    public void performance(String rating) {
-    }
+    public void performance (){}
+    public void performance(String rating) {}
 
     //Method overloading
-    public abstract void farewell();
+    public void farewell(){}
+    public void farewell(int date) {}
 
-    public void farewell(int date) {
-    }
 
-    ;
 }

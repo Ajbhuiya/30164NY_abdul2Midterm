@@ -20,10 +20,14 @@ public class Sort {
 					min = i;
 			}
 
+
+
 			int temp = array[min];
 			array[min] = array[j];
 			array[j] = temp;
 		}
+
+
 
 		final long endTime = System.currentTimeMillis();
 		final long executionTime = endTime - startTime;
@@ -31,7 +35,8 @@ public class Sort {
 		return list;
 	}
 
-	public int[] insertionSort(int [] array){
+	    public int[] insertionSort(int [] array){
+
 		final long startTime = System.currentTimeMillis();
 		int [] list = array;
 		//implement here
@@ -54,7 +59,7 @@ public class Sort {
 	}
 
 
-	public int [] mergeSort(int [] array){
+	public int [] mergeSort(int[] array, int i, int i1){
 		int [] list = array;
 		//implement here
 
@@ -64,7 +69,7 @@ public class Sort {
 	}
 
 
-	public int [] quickSort(int [] array){
+	public int [] quickSort(int[] array, int i, int i1){
 		int [] list = array;
 		//implement here
 
@@ -73,7 +78,7 @@ public class Sort {
 		return list;
 	}
 
-	public int [] heapSort(int [] array){
+	public int [] heapSort(int[] array, int n){
 		int [] list = array;
 		//implement here
 
@@ -83,7 +88,7 @@ public class Sort {
 	}
 
 
-	public int [] bucketSort(int [] array){
+	public int [] bucketSort(int[] array, int maxValueForBucketSort){
 		int [] list = array;
 		//implement here
 

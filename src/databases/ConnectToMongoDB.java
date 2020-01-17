@@ -5,6 +5,7 @@ import com.mongodb.MongoClient;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
+import json.parser.HelperClass;
 import org.bson.Document;
 import parser.Student;
 
@@ -98,10 +99,19 @@ public class ConnectToMongoDB {
     }
 
     public static void main(String[] args){
-        //insertIntoToMongoDB(new User("Naomi Chan", "4493","07-1996"));
+        insertIntoToMongoDB(new User("Naomi Chan", "4493","07-1996"));
         List<User> user = readUserProfileFromMongoDB();
         for(User person:user){
             System.out.println(person.getStName()+ " "+ person.getStID());
         }
     }
+
+    public void newInsertIntoMongoDB(List<HelperClass> newsList, String cnnApi) {
+    }
+
+    public List<HelperClass> newReadListFromMongoDB(List<HelperClass> newsList, String cnnApi) {
+        return newsList;
+
+    }
+
 }

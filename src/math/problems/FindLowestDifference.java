@@ -18,9 +18,9 @@ public class FindLowestDifference {
         System.out.println(findSmallestDifference
                 (array1, array2, m, n));
     }
+
     static int findSmallestDifference(int A[], int B[],
-                                      int m, int n)
-    {
+                                      int m, int n) {
 
         Arrays.sort(A);
         Arrays.sort(B);
@@ -30,8 +30,7 @@ public class FindLowestDifference {
         int result = Integer.MAX_VALUE;
 
 
-        while (a < m && b < n)
-        {
+        while (a < m && b < n) {
             if (Math.abs(A[a] - B[b]) < result)
                 result = Math.abs(A[a] - B[b]);
 
@@ -43,8 +42,6 @@ public class FindLowestDifference {
                 b++;
         }
         return result;
-
-
 
 
     }
